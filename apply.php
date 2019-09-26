@@ -9,7 +9,7 @@
     $page = "apply";
     include("static/navigation.php") ?>
     	<!--Start TITLE PAGE-->
-		<section class="title_page bg_3">
+		<section class="title_page bg_4">
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-12 col-md-12 col-sm-12">

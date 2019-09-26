@@ -2524,7 +2524,7 @@ ul.popular_posts_list {
 #breadcrumbs {
   display: block;
   position: relative;
-  vertical-align: top;
+  /* vertical-align: top; */
   word-wrap: break-word;
 }
 #breadcrumbs ul {
