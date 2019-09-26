@@ -26,6 +26,7 @@
 									<li class="<?php if($page=='home'){echo 'active';}?>" ><a href="index.php">Home</a></li>
 									<li class="<?php if($page=='about'){echo 'active';}?>" ><a href="about.php">About Us</a></li>
 									<li class="<?php if($page=='whycs2000'){echo 'active';}?>" ><a href="whycs2000.php">Why Capital Source 2000?</a></li>
+									<li class="<?php if($page=='apply'){echo 'active';}?>" ><a href="apply.php">Apply Now</a></li>
 									<li class="<?php if($page=='contact'){echo 'active';}?>" ><a href="contact1.php">Contact Us</a></li>
 		                             
 		                        </ul>
