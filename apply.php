@@ -31,6 +31,10 @@
 	<!-- Start Apply Now Page -->
 	<!-- multistep form -->
 	<div id="form-wrapper">
+		<span>
+			<h1 id="apply-title">Funding Application</h1>
+		</span>
+
 		<form id="msform">
 			<!-- progressbar -->
 			<ul id="progressbar">
@@ -45,24 +49,28 @@
 
 			<fieldset>
 				<h2 class="fs-title">First Name</h2>
-				<input type="text" name="firstname"  placeholder="Last Name">
+				<input type="name" name="firstname" placeholder="First Name">
 
 				<h2 class="fs-title">Last Name</h2>
-				<input type="text" name="lastname" placeholder="First Name">
+				<input type="name" name="lastname" placeholder="Last Name">
 
 
 				<h2 class="fs-title">Email Address</h2>
-				<input type="number" name="email"  placeholder="Email">
+				<input type="email" name="email" placeholder="Email">
 
 				<h2 class="fs-title">
 					Phone Number
 				</h2>
-				<input type="text" name="phone-number" placeholder="xxx-xxx-xxxx">
+				<input type="number" name="phone-number" placeholder="xxx-xxx-xxxx">
 
-					<h2 class="fs-title">Legal Business Name </h2>
-					<!-- <h3 class="fs-subtitle">This is step 1</h3> -->
-					<input type="number" name="quantity" min="30" max="50" placeholder="Business Name">
-					<input type="button" name="next" class="next action-button" value="Next" />
+				<h2 class="fs-title">Legal Business Name </h2>
+				<!-- <h3 class="fs-subtitle">This is step 1</h3> -->
+				<input type="text" name="business-name" placeholder="Business Name">
+
+				<h2 class="fs-title">Doing Business As</h2>
+				<input type="text" name="dba" placeholder="Doing Business As">
+
+				<input type="button" name="next" class="next action-button" value="Next" />
 			</fieldset>
 
 			<fieldset>

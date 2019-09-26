@@ -22,7 +22,7 @@ body {
 }
 /*form styles*/
 #msform {
-  width: 400px;
+  width: 90%;
   margin: 50px auto;
   text-align: center;
   position: relative;
@@ -56,6 +56,7 @@ body {
   font-family: montserrat;
   color: #2c3e50;
   font-size: 13px;
+  text-align: left;
 }
 /*buttons*/
 #msform .action-button {
@@ -93,6 +94,7 @@ body {
   overflow: hidden;
   /*CSS counters to number the steps*/
   counter-reset: step;
+  width: 100%;
 }
 #progressbar li {
   list-style-type: none;
